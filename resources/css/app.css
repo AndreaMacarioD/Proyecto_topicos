@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 70%;
+    margin: 3% auto 0 auto;
+}
+
+.div_card-profile *{
+    margin: 3% auto 0 auto;
+}
+
+.footer {
+    border: 1px rgb(33, 37, 41) solid;
+    background-color: rgb(33, 37, 41);
+    padding: 3% 0 0 0;
+}
+
+.footer * {
+    color: white;
+}
+ .img-main-products{
+  margin: 3% auto 0 auto;  
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 250px;
+ }
+
+ .img-carrousel{
+    height: 300px;
+    width: 100%;
+ }
+
+ .login-div {
+    margin: 10% auto 10% auto;
+ }
+
+ .div-main{
+        background-color: #EFE9F4;
+ }

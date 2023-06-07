@@ -1,0 +1,92 @@
+:root{
+    --oddColor:#00a6fb;
+    --evenColor:#0582ca;
+    --headersColor:#006494;
+    --btnColor:#006494;
+    --panelBkColor:	#003554;
+    --bodyColor: #051923;
+}
+body{
+background-color: var(--bodyColor);
+}
+* {
+box-sizing: border-box;
+color:var(--bodyColor);
+}
+
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+[class*="col-"] {
+float: left;
+
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.center{float: none; margin: auto;}
+
+table{
+border-collapse: collapse;
+background-color: var(--tableBkColor);
+padding: 5px;
+}
+td,th{
+width: 50%;
+padding: 15px;
+border:solid 2px var(--bodyColor);
+}
+tr:nth-child(even) {
+background-color: var(--evenColor);
+}
+tr:nth-child(odd){
+background-color: var(--oddColor);
+}
+tr:hover{
+background-color: var(--headersColor);
+}
+th{
+background-color: var(--headersColor);
+}
+button{
+background-color: var(--btnColor); 
+  border: solid var(--bodyColor);
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  cursor: pointer;;
+}
+input{
+background-color: var(--btnColor); 
+  border: solid var(--bodyColor);
+  padding: 5px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 1em;
+}
+#mainPanel{
+background-color: var(--panelBkColor);
+padding: 15px;
+}
+ 
+.navText {
+  color:#051923
+}
+
+.nav {
+  color:#051923
+}
